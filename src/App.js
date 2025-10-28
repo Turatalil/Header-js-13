@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>   
+      <Header/>
     </div>
   );
 }
 
 export default App;
+
+// npx create-react-app реакт папка тузуп берет
+// npm start -  браузерди ачып берет 
+// props => bul ata enesinen balasyna maalymattardy otkorup beret
+// lifting up = bul balasynan ata enesine otkorup beret 
+// Todo List
+// CSS   
+// Module.Css
+// styled-components
